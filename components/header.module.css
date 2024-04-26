@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+.link:hover {
+  color: #e8c258;
+  border-bottom: 2px solid #e8c258;
+}
+
+.btn {
+  padding: "1rem";
+  margin: "1.1rem";
+  color: white;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  color: black;
+  background-color: #e8c258;
+}
